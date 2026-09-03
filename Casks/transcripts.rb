@@ -1,14 +1,14 @@
 cask "transcripts" do
-  version "1.1.0-beta.4"
-  sha256 "3ae811b8a6d8d9129095344fba1f5b98a11f235e7e37e4212bca724a4685af10"
+  version "1.1.0-beta.5"
+  sha256 "4ab79c3c2b7ad6b7cff1c9b2ce55cb76f3515f2174dfce56c5c91f78724656ac"
 
-  url "https://transcripts.hatcher.ltd/Transcripts-#{version}.zip"
+  url "https://transcripts.doughatcher.com/Transcripts-#{version}.zip"
   name "Transcripts"
   desc "Voice notes and meeting transcripts, recorded and transcribed on-device"
-  homepage "https://transcripts.hatcher.ltd"
+  homepage "https://transcripts.doughatcher.com"
 
   livecheck do
-    url "https://transcripts.hatcher.ltd/appcast.json"
+    url "https://transcripts.doughatcher.com/appcast.json"
     strategy :json do |json|
       json["version"]
     end
