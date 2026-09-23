@@ -1,6 +1,6 @@
 cask "transcripts" do
-  version "1.1.0-beta.10"
-  sha256 "9d99a1eeb4d0eda29d61a2214d3ff59e26c873bb81dddea12574b7af94d559a9"
+  version "1.1.0"
+  sha256 "689bb6a008c9975c0563bc60d67b55ec0d6a98a11996dedec59000f932e74e44"
 
   url "https://transcripts.doughatcher.com/Transcripts-#{version}.zip"
   name "Transcripts"
